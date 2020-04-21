@@ -1,0 +1,55 @@
+from datetime import *
+
+# Timeseries of El Paso County confirmed cases and deaths - 
+# Retrieved from state and local media reporting of data
+# from the Colorado Department of Public Health and Environment
+
+# 'u' stands for unknown (data missing)
+
+COUNTY_DATA = {datetime(2020,3,6):[1,0],
+               datetime(2020,3,7):[1,0],
+               datetime(2020,3,8):[1,0],
+               datetime(2020,3,9):[1,0],
+               datetime(2020,3,10):[2,0],
+               datetime(2020,3,11):[1,0],
+               datetime(2020,3,12):[1,0],
+               datetime(2020,3,13):['u',1],
+               datetime(2020,3,14):['u',1],
+               datetime(2020,3,15):['u',1],
+               datetime(2020,3,16):['u',1],
+               datetime(2020,3,17):['u',1],
+               datetime(2020,3,18):['u',1],
+               datetime(2020,3,19):['u',2],
+               datetime(2020,3,20):['u',2],
+               datetime(2020,3,21):[37,3],
+               datetime(2020,3,22):[51,3],
+               datetime(2020,3,23):['u',3],
+               datetime(2020,3,24):[106,3],
+               datetime(2020,3,25):[122,5],
+               datetime(2020,3,26):[137,7],
+               datetime(2020,3,27):[160,7],
+               datetime(2020,3,28):['u',10],
+               datetime(2020,3,29):[245,10],
+               datetime(2020,3,30):[286,11],
+               datetime(2020,3,31):[314,13],
+               datetime(2020,4,1):['u',14],
+               datetime(2020,4,2):[340,16],
+               datetime(2020,4,3):[374,18],
+               datetime(2020,4,4):[406,22],
+               datetime(2020,4,5):[435,25],
+               datetime(2020,4,6):[441,28],
+               datetime(2020,4,7):[457,28],
+               datetime(2020,4,8):[472,30],
+               datetime(2020,4,9):[534,32],
+               datetime(2020,4,10):[550,33],
+               datetime(2020,4,11):['u',35],
+               datetime(2020,4,12):[613,37],
+               datetime(2020,4,13):[641,39],
+               datetime(2020,4,14):[652,41],
+               datetime(2020,4,15):[668,43],
+               datetime(2020,4,16):[689,48],
+               datetime(2020,4,17):[708,49],
+               datetime(2020,4,17):[721,49],
+               datetime(2020,4,19):[731,49],
+               datetime(2020,4,20):[734,50]
+               }
