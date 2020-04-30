@@ -64,6 +64,5 @@ for w in [offset, amplitude, phase, freq]:
 # Set up layouts and add to document
 inputs = column(text, offset, amplitude, phase, freq)
 
-curdoc().add_root(row(inputs, plot, width=8
+curdoc().add_root(row(inputs, plot, width=800))
 curdoc().title = "Sliders"
-
