@@ -86,7 +86,12 @@ COUNTY_DATA = {datetime(2020,3,6):[1,0],
                datetime(2020,5, 3):[994,75],
                datetime(2020,5, 4):[1005,76],
                datetime(2020,5, 5):[1028,77],
-               datetime(2020,5, 6):[1055,77]
+               datetime(2020,5, 6):[1055,77],
+               datetime(2020,5, 7):[1079,77],
+               datetime(2020,5, 8):[1097,78],
+               datetime(2020,5, 9):[1109,78],
+               datetime(2020,5, 10):[1124,78],
+               datetime(2020,5, 11):[1137,79]
                }                                
 
 # https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/
