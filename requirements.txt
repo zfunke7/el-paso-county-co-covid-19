@@ -1,4 +1,4 @@
-bokeh==2.0.2
+bokeh==3.8.2
 DateTime==4.3
 numpy==1.22.0
 matplotlib==3.2.1
